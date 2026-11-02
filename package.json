@@ -1,0 +1,10 @@
+{
+  "name": "mysimplegrokky",
+  "version": "0.0.1",
+  "private": true,
+  "type": "module",
+  "bin": { "grokky": "src/cli.ts" },
+  "scripts": { "grokky": "tsx src/cli.ts", "typecheck": "tsc --noEmit" },
+  "dependencies": { "@agentclientprotocol/sdk": "^2.4.0" },
+  "devDependencies": { "tsx": "^4.19.0", "typescript": "^5.6.0", "@types/node": "^22.0.0" }
+}
